@@ -20,8 +20,6 @@ sites:
     url: https://analytics.traist.co.uk
   - name: Tastine
     url: https://tastine.ada-joe.com
-  - name: Test Fail
-    url: https://fail.traist.co.uk
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
