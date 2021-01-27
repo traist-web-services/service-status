@@ -26,15 +26,16 @@ status-website:
   cname: status.traist.co.uk
   # Uncomment the following line if you don't have a custom domain and add your repo name
   # baseUrl: /upptime
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  logoUrl: https://raw.githubusercontent.com/traist-web-services/traist/main/public/favicon.ico
+  name: Traist Service Status
+  introTitle: "**Service Status** updates for website hosted by Traist Web Services"
+  introMessage: "This page details active outage details and uptime for services and sites hosted within Traist Web Service's cloud."
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: Traist Home Page
+      href: https://traist.co.uk
+robotsText: "User-agent: * \n Disallow: /"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
@@ -46,6 +47,6 @@ workflowSchedule:
   summary: "0 0 * * *"
   updateTemplate: "0 0 * * *"
   updates: "0 3 * * *"
-  uptime: "*/1 * * * *"
+  uptime: "*/2 * * * *"
   
 user-agent: traist-web-services
