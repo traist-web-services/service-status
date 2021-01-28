@@ -28,8 +28,8 @@ status-website:
   # baseUrl: /upptime
   logoUrl: https://raw.githubusercontent.com/traist-web-services/traist/main/public/favicon.ico
   name: Traist Service Status
-  introTitle: "**Service Status** updates for website hosted by Traist Web Services"
-  introMessage: "This page details active outage details and uptime for services and sites hosted within Traist Web Service's cloud."
+  introTitle: "**Service Status** updates for sites and apps hosted by Traist Web Services"
+  introMessage: "This page details active outage details and uptime for services and sites hosted within Traist Web Service's cloud. Normal response times are between [324 and 1100 ms](https://www.littledata.io/average/server-response-time)."
   navbar:
     - title: Status
       href: /
@@ -47,6 +47,6 @@ workflowSchedule:
   summary: "0 0 * * *"
   updateTemplate: "0 0 * * *"
   updates: "0 3 * * *"
-  uptime: "*/2 * * * *"
+  uptime: "*/5 * * * *"
   
 user-agent: traist-web-services
